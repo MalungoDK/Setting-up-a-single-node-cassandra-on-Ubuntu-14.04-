@@ -5,6 +5,7 @@
 In order to install cassandra I needed to install Java 7 or 8, but I used Java 7 instead.
 
 **sudo apt-get update**
+
 **sudo apt-get install openjdk-7-jdk**
 
 **2. Add DataStax community repository**
