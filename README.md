@@ -12,7 +12,7 @@ In order to install cassandra I needed to install Java 7 or 8, but I used Java 7
 
 After installing Java 7, I then added DataStax Community repository to the source files 
 
-echo "deb http://debian.datastax.com/community stable main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
+**echo "deb http://debian.datastax.com/community stable main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list**
 
 After adding the repository, I had to add the DataStax repository key to my aptitude trusted key. However, Because I was working in a network under a proxy server, I had to do some extra effort which is explained bellow.
 
